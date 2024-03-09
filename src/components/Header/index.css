@@ -1,0 +1,35 @@
+.nav-container {
+  background-color: lightblue;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+}
+.logo {
+  width: 27%;
+  border-radius: 5px;
+  margin-left: 2%;
+}
+.list-items {
+  display: flex;
+  list-style-type: none;
+}
+.list {
+  margin-right: 25px;
+  font-size: 19px;
+  font-weight: 500;
+}
+
+.logout-button {
+  background-color: gold;
+  height: 37px;
+  width: 100%;
+  margin-right: 3%;
+  font-weight: bold;
+  font-size: 15px;
+  border-width: 0px;
+  border-radius: 5px;
+  margin-left: 1100%;
+}
+.link {
+  text-decoration: none;
+}

@@ -1,0 +1,31 @@
+.bg-container {
+  background-image: url("https://res.cloudinary.com/dlsuy2qn2/image/upload/v1669948738/samples/ecommerce/accessories-bag.jpg");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.heading {
+  color: #ffffff;
+  margin-left: 25px;
+  font-size: 45px;
+}
+.description {
+  margin-left: 25px;
+  font-size: 25px;
+  font-weight: 500;
+}
+.shop-now {
+  height: 55px;
+  width: 110px;
+  margin-left: 25px;
+  font-size: 17px;
+  border-width: 0px;
+  border-radius: 5px;
+  background-color: orange;
+}
+.store-heading {
+  margin-left: 25px;
+  color: orange;
+}

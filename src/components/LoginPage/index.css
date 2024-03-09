@@ -1,0 +1,58 @@
+.login-container {
+  background-color: rgb(211, 229, 229);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  background-color: #ffffff;
+  width: 60%;
+  height: 80%;
+  display: flex;
+}
+.login {
+  height: 100%;
+  width: 50%;
+}
+.login-heading {
+  font-family: "Roboto";
+  margin-left: 15px;
+  color: rgb(53, 53, 43);
+  margin-top: 55px;
+  margin-bottom: 55px;
+}
+.label {
+  color: rgb(53, 53, 43);
+  font-weight: bold;
+  margin-left: 15px;
+}
+.input {
+  height: 35px;
+  width: 100%;
+  margin-left: 15px;
+  margin-top: 15px;
+  border: 2px solid darkgray;
+  border-radius: 5px;
+  margin-bottom: 25px;
+  padding: 5px;
+  font-size: 15px;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+.login-button {
+  width: 30%;
+  height: 7%;
+  background-color: lightblue;
+  border-width: 0px;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-left: 15px;
+}
+.error-msg {
+  color: red;
+}
